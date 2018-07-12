@@ -1,0 +1,182 @@
+/*
+#686963 letras/background-footer
+#E56353 background
+#707070 background
+#FAFAFA backgrounds light
+*/
+
+/* GENERAL ****************************************************************************************/
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Open Sans', sans-serif;
+  color: #686963;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 6em;
+}
+
+.highlighted {
+  font-weight: 700;
+}
+
+li:hover {
+  font-weight: 700;
+}
+
+/* NAVBAR *****************************************************************************************/
+.navbar {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* HEADER *****************************************************************************************/
+header {
+  padding: 120px 20px 70px 20px;
+  width: 100%;
+  background-color: #E56353;
+  color: #FFF;
+  text-align: center;
+}
+
+/* BLOG *******************************************************************************************/
+section#blog h1 {
+  margin: 0;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.blog__inner {
+  padding: 70px 14vw 0 8vw;
+  height: 500px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog__inner--dark {
+  padding: 70px 5vw 0 4vw;
+
+  background-color: #707070;
+  color: #FFF;
+}
+
+.blog__inner__background--top {
+  background-image: url(../assets/img/img-history.png);
+}
+
+.blog__inner__background--bottom {
+  background-image: url(../assets/img/our-tomatoes.png);
+}
+
+/* TEAM *******************************************************************************************/
+section#team header {
+  padding-top: 70px;
+}
+
+section#team h2 {
+  margin: 0;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+section#team .container-fluid{
+  margin-top: 70px;
+}
+
+.team__inner {
+  margin-bottom: 30px;
+  padding-top: 2vw;
+  height: 400px;
+}
+
+
+/* SHOP *******************************************************************************************/
+section#shop {
+  padding: 50px 0 50px 0;
+
+  background-color: #E56353;
+  text-align: center;
+  color: #FFF;
+}
+
+section#shop h1 {
+  font-size: 3.5em;
+}
+
+.shop__btn {
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 0.5rem 10rem;
+
+  background-color: #FAFAFA;
+  font-size: 3.5rem;
+  color: #686963;
+}
+
+/* FOOTER *****************************************************************************************/
+footer {
+  padding: 70px 0;
+
+  background-color: #686963;
+  text-align: center;
+}
+
+.footer__brand img {
+  width: 100%;
+  height: auto;
+}
+
+.footer__rrss {
+  padding-top: 20px;
+}
+
+.footer__rrss a {
+  color: inherit;
+}
+
+.footer__rrss__icon {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  padding-top: 15px;
+  border-radius: 50%;
+
+  background-color: #FAFAFA;
+  font-size: 3em;
+}
+
+@media only screen and (max-width : 992px) {
+  .footer__rrss__icon {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .footer__links ul {
+    text-align: center;
+  }
+}
+
+.footer__links {
+  padding-top: 15px;
+  text-align: left;
+}
+
+.footer__links a {
+  font-size: 1.5rem;
+  color: #FAFAFA;
+}
+
+.footer__links a:hover {
+  text-decoration: none;
+}
