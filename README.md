@@ -54,13 +54,6 @@
   ![Mockup](mock-up/sketch.jpeg)
 ### Versión mobile:
 
-  - Sección "About"
-    ![Mockup](mock-up/mobile_about.jpeg)
-  - Sección "Team"
-    ![Mockup](mock-up/mobile_team.jpeg)
-  - Sección "Footer"
-    ![Mockup](mock-up/mobile_footer.jpeg)
-
 
 ## ESTRUCTURA BEM
 
